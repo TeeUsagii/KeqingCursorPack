@@ -1,0 +1,57 @@
+[Version]
+signature="$CHICAGO$"
+
+[Strings]
+CUR_DIR         = "Cursors\Keqing Cursor Pack"
+SCHEME_NAME     = "Keqing Cursor Pack ver 1.0.0"
+pointer         = "1-Normal Select.ani"
+help            = "2-Help Select.ani"
+work            = "3-Working in the BG.ani"
+busy            = "4-Busy.ani"
+cross           = "5-Precision Select.ani"
+text            = "6-Text Select.ani"
+hand            = "7-Handwritting.ani"
+unavailable     = "8-Unavailable.ani"
+vert            = "9-Vertical Rezsize.ani"
+horz            = "10-Horizontal Resize.ani"
+dgn1            = "11-Diagonal 1.ani"
+dgn2            = "12-Diagonal 2.ani"
+move            = "13-Move.ani"
+alternate       = "14-Alternative.ani"
+link            = "15-Link Select.ani"
+person          = "16-Person Select.ani"
+pin             = "17-Location Select.ani"
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg = Scheme.Reg
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Txt]
+"Notes by Ferenai Nexi.txt"
+
+[Scheme.Cur]
+"1-Normal Select.ani"
+"2-Help Select.ani"
+"3-Working in the BG.ani"
+"4-Busy.ani"
+"5-Precision Select.ani"
+"6-Text Select.ani"
+"7-Handwritting.ani"
+"8-Unavailable.ani"
+"9-Vertical Rezsize.ani
+"10-Horizontal Resize.ani"
+"11-Diagonal 1.ani"
+"12-Diagonal 2.ani"
+"13-Move.ani"
+"14-Alternative.ani"
+"15-Link Select.ani"
+"16-Person Select.ani"
+"17-Location Select.ani"
+;Install Mod By TeeUsagii

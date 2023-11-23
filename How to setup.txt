@@ -1,0 +1,5 @@
+Right click "Install.inf" choose Install
+
+Win + R : 'control main.cpl' or go to 'Mouse Properties' and change 'Pointers' Keqing Cursor Pack ver 1.0.0
+
+Thank you!
